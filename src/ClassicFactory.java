@@ -2,6 +2,7 @@ public class ClassicFactory extends Building {
     int speed;
     int usage;
     int drain;
+    // type pas nécessaire car il est de type electric pour toutes usines classiques
 
     public ClassicFactory(int u, int d, int s, String name) {
         super(name);
